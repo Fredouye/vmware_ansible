@@ -6,9 +6,7 @@ This role can be used to create a Linux VM running on top of a VMware hypervisor
 
 ## Prerequisites
 
-Access to the `TCP 9440` port of your Prism Element / Prism Central.
-
-OS customization is done using cloud-init, your template needs to include this package.
+Access to the TCP 443 port of your vCenter, and the **PyVmomi** module.
 
 ------
 
